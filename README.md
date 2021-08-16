@@ -1,10 +1,10 @@
-ms-ecommerce :dart:
+# ms-ecommerce :dart:
 
 ## Config Server
 
 Centralizar as configurações dos microsserviços
 
-Dependências:
+Dependências
 - Spring Boot Actuator
 - Spring Web
 - Config Server
@@ -20,22 +20,21 @@ Dependências:
 - Alterar a porta
 - Configurar os outros microsservicos
 
-#### Acesso:
+#### Acesso
 
 - localhost:PORTA/nome-micro-servico/default
 
 
 ## Service Discovery (Eureka Server) 
 
-Dependências:
-
+Dependências
 - Eureka Server
 - Config Client
 
 #### Classe da aplicação
  - @EnableEurekaServer (habilitar)
 
-### Observações
+#### Observações
 
 - Todo microsserviço que for iniciado ele vai se registrar no service discovery
 
@@ -52,7 +51,7 @@ composição e tradução de protocolo, além de fornecer para cada um dos clien
 
 O API Gateway também pode mascarar falhas nos serviços de back-end, retornando dados em cache ou padrão.
 
-Dependências:
-Gateway
+Dependências
+- Gateway
 
 

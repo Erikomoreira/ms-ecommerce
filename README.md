@@ -18,7 +18,7 @@ Dependências
 - Setar onde iremos pegar as configurações
 - Conseguimos puxar de repositório no GIT as configurações
 - Alterar a porta
-- Configurar os outros microsservicos
+- Configurar os outros microsserviços
 
 #### Acesso
 

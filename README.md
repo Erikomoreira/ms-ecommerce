@@ -27,21 +27,20 @@ Dependências
 
 ## Service Discovery (Eureka Server) 
 
+
+Todo microsserviço que for iniciado ele vai se registrar no service discovery  
+
+Service Discovery é responsável por gerenciar as URLS/Portas...etc  
+
+Exemplo: Service Discovery eu sou o product-catalog e quero utiizar o shopping-cart (ele irá apontar)  
+
+
 Dependências
 - Eureka Server
 - Config Client
 
 #### Classe da aplicação
  - @EnableEurekaServer (habilitar)
-
-#### Observações
-
-- Todo microsserviço que for iniciado ele vai se registrar no service discovery
-
-- Service Discovery é responsável por gerenciar as URLS/Portal...etc
-
-- Exemplo: Service Discovery eu sou o product-catalog e quero utiizar o shopping-cart (ele irá apontar)
-
 
 ## Gateway
 
